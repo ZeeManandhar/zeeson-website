@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Options - TimberArt Nepal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 1rem 0;
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        header .logo {
+            height: 50px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .payment-options {
+            text-align: center;
+            padding: 3rem 1rem;
+        }
+
+        .payment-options h2 {
+            margin-bottom: 2rem;
+        }
+
+        .payment-method {
+            display: inline-block;
+            text-align: center;
+            margin: 1rem;
+        }
+
+        .payment-method img {
+            max-width: 150px;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.2s;
+        }
+
+        .payment-method img:hover {
+            transform: scale(1.1);
+        }
+
+    footer {
+        background-color: #99ff99; 
+        text-align: center;
+        padding: 2rem 1rem;
+        margin-top: 2rem;
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    footer .btn {
+        background: #333; 
+        color: #fff; 
+        padding: 0.75rem 1.5rem;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1rem;
+        transition: background-color 0.3s, transform 0.2s;
+    }
+
+    footer .btn:hover {
+        background: #555; 
+        transform: scale(1.05); 
+    }
+
+    footer p {
+        font-size: 0.9rem;
+        color: #333;
+        margin-top: 1rem;
+    }
+         @keyframes heartbeat {
+        0%, 100% {
+            transform: scale(1);
+        }
+        25% {
+            transform: scale(1.1);
+        }
+        50% {
+            transform: scale(1.2);
+        }
+        75% {
+            transform: scale(1.1);
+        }
+    }
+
+    .discount-message {
+        font-size: 1.2rem;
+        color: #d9534f; 
+        font-weight: bold;
+        margin-top: 1rem;
+        animation: heartbeat 1.5s infinite;
+    }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <img src="https://ideogram.ai/assets/progressive-image/balanced/response/JstcghLqT9moPA8lhkgRbw" alt="TimberArt Nepal" alt="TimberArt Nepal" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Back To Home</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Payment Options -->
+    <section class="payment-options">
+        <div class="container">
+            <h2>Select Your Payment Method</h2>
+            <div class="payment-method">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRURIPRhKOlMe7cw2N9IzXTwUICDh0EVLvcCw&s" alt="eSewa Logo">
+                <p>eSewa</p>
+            </div>
+            <div class="payment-method">
+                <img src="https://blog.khalti.com/wp-content/uploads/2021/01/khalti-icon.png" alt="Khalti Logo">
+                <p>Khalti</p>
+            </div>
+            <div class="payment-method">
+                <img src="https://media.licdn.com/dms/image/v2/D4D12AQFEI11fmNqsxw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1663564467244?e=2147483647&v=beta&t=efwWE1_7DW2_p-iJVWEKXsDq1wUWbACCLfdNJEQt3Wc" alt="Bank Transaction">
+                <p>Bank Transaction</p>
+            </div>
+            <p class="discount-message">Buy 3 items at Once and get 15% off</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <a href="index.html" class="btn">Back to Home</a>
+        <p>&copy; 2024 TimberArt Nepal. All rights reserved.</p>
+    </footer>
+</body>
+</html>
